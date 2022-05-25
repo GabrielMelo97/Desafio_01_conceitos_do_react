@@ -57,6 +57,10 @@ section.task-list {
         &:hover {
           filter: brightness(0.95);
         }
+
+        &:disabled{
+          background: #3fad275e;;
+        }
       }
     }
   }
@@ -156,6 +160,10 @@ section.task-list {
           }
         }
       }
-    } 
+    }
+    
+    p.no-task{
+      text-align: center;
+    }
   }
 }
